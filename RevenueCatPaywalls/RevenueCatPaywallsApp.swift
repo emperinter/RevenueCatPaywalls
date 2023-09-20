@@ -6,15 +6,25 @@
 //
 
 import SwiftUI
+import StoreKit
+import RevenueCat
+
 
 @main
 struct RevenueCatPaywallsApp: App {
-    let persistenceController = PersistenceController.shared
-
+    
+    init() {
+        // Configure RevenueCat Purchases
+        Purchases.logLevel = .debug
+        Purchases.configure(with: Configuration
+            .builder(withAPIKey: Constants.apiKey)
+            .with(usesStoreKit2IfAvailable: true)
+            .build())
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            RevenueCat()
         }
     }
 }
