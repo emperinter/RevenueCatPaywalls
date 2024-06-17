@@ -2,6 +2,8 @@
 
 - [official website tutorial-PayWalls](https://www.revenuecat.com/docs/paywalls)
 
+- [RevenueCatPaywalls | GumRoad](https://emperinter.gumroad.com/l/RevenueCatPaywalls)
+
 - [中文说明 | 微信付费文章](https://mp.weixin.qq.com/s?__biz=MzU2NDg4MjQzOA==&mid=2247484676&idx=1&sn=c5f13d8b67c05596d322e1da14ed756f&chksm=fc45786dcb32f17bb458c06cd19f03a789a1956be0c165999ba9eea9a5b9aa9e75e112e36d26#rd)
 
 # Tutorials
